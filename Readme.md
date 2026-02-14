@@ -2,14 +2,16 @@
 *A minimalistic C++17+ graph-based framework for creating applications*  
 
 Vine lets you design your program as a **graph of functionalities** with explicit dependencies.  
-Instead of juggling threads, locks, and synchronization headaches, you focus only on **what needs to happen** and **what depends on what**.  
+Instead of juggling threads, locks, and synchronization headaches, you focus only on **what needs to happen** and **what depends on what**.
 Vine takes care of the rest — running everything as early and as parallel as possible.  
+
+And it is also so simple you will learn it's entirety by the end of this readme!
 
 ---
 
 ## Why use Vine? 🚀
 
-Multithreading is hard. Get it wrong, and your threads just sit around twiddling their thumbs, waiting for each other.  
+Multithreading is hard. Get it wrong, and your threads just sit around twiddling their thumbs, waiting for each other.
 Get it *really* wrong, and you’re stuck in deadlocks and spaghetti sync code.  
 
 Vine fixes this by:  
